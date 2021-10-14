@@ -1,0 +1,5 @@
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum1516\labornum1516\Debug\labornum1516.vcxproj.AssemblyReference.cache
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum1516\labornum1516\Debug\labornum1516.MyForm.resources
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum1516\labornum1516\Debug\labornum1516.vcxproj.GenerateResource.cache
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum1516\labornum1516\Debug\labornum1516.MyForm1.resources
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum1516\labornum1516\Debug\labornum1516.MyForm2.resources
