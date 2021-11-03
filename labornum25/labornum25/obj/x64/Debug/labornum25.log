@@ -1,0 +1,54 @@
+﻿  Проверка исходных файлов
+  Удаленное копирование исходных файлов в "192.168.1.103"
+  Проверка архитектуры
+  Проверка архитектуры
+  Запуск удаленной сборки.
+  Компиляция исходных файлов:
+  fourth.cpp
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(9,1): error : ‘::main’ must return ‘int’
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(9,1): error :     9 | void main(void)
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(9,1): error :       | ^~~~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(16,25): error : invalid conversion from ‘int (*)(int)’ to ‘__sighandler_t’ {aka ‘void (*)(int)’} [-fpermissive]
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(16,25): error :    16 |         signal(SIGUSR1, f1);
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(16,25): error :       |                         ^~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(16,25): error :       |                         |
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(16,25): error :       |                         int (*)(int)
+/usr/include/signal.h(88,57): message : initializing argument 2 of ‘void (* signal(int, __sighandler_t))(int)’
+/usr/include/signal.h(88,57): message :    88 | extern __sighandler_t signal (int __sig, __sighandler_t __handler)
+/usr/include/signal.h(88,57): message :       |                                          ~~~~~~~~~~~~~~~^~~~~~~~~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(23,29): error : invalid conversion from ‘int (*)(int)’ to ‘__sighandler_t’ {aka ‘void (*)(int)’} [-fpermissive]
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(23,29): error :    23 |             signal(SIGUSR2, f2);
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(23,29): error :       |                             ^~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(23,29): error :       |                             |
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(23,29): error :       |                             int (*)(int)
+/usr/include/signal.h(88,57): message : initializing argument 2 of ‘void (* signal(int, __sighandler_t))(int)’
+/usr/include/signal.h(88,57): message :    88 | extern __sighandler_t signal (int __sig, __sighandler_t __handler)
+/usr/include/signal.h(88,57): message :       |                                          ~~~~~~~~~~~~~~~^~~~~~~~~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(31,25): error : invalid conversion from ‘int (*)(int)’ to ‘__sighandler_t’ {aka ‘void (*)(int)’} [-fpermissive]
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(31,25): error :    31 |         signal(SIGALRM, f3);
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(31,25): error :       |                         ^~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(31,25): error :       |                         |
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(31,25): error :       |                         int (*)(int)
+/usr/include/signal.h(88,57): message : initializing argument 2 of ‘void (* signal(int, __sighandler_t))(int)’
+/usr/include/signal.h(88,57): message :    88 | extern __sighandler_t signal (int __sig, __sighandler_t __handler)
+/usr/include/signal.h(88,57): message :       |                                          ~~~~~~~~~~~~~~~^~~~~~~~~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(35,5): error : ‘exit’ was not declared in this scope; did you mean ‘_exit’?
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(35,5): error :    35 |     exit(0);
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(35,5): error :       |     ^~~~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(35,5): error :       |     _exit
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(39,21): error : invalid conversion from ‘int (*)(int)’ to ‘__sighandler_t’ {aka ‘void (*)(int)’} [-fpermissive]
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(39,21): error :    39 |     signal(SIGUSR1, f1);
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(39,21): error :       |                     ^~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(39,21): error :       |                     |
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(39,21): error :       |                     int (*)(int)
+/usr/include/signal.h(88,57): message : initializing argument 2 of ‘void (* signal(int, __sighandler_t))(int)’
+/usr/include/signal.h(88,57): message :    88 | extern __sighandler_t signal (int __sig, __sighandler_t __handler)
+/usr/include/signal.h(88,57): message :       |                                          ~~~~~~~~~~~~~~~^~~~~~~~~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(47,21): error : invalid conversion from ‘int (*)(int)’ to ‘__sighandler_t’ {aka ‘void (*)(int)’} [-fpermissive]
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(47,21): error :    47 |     signal(SIGUSR2, f2);
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(47,21): error :       |                     ^~
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(47,21): error :       |                     |
+C:\Users\brune\Desktop\Дз\Системное программирование\laborators\labornum25\labornum25\fourth.cpp(47,21): error :       |                     int (*)(int)
+/usr/include/signal.h(88,57): message : initializing argument 2 of ‘void (* signal(int, __sighandler_t))(int)’
+/usr/include/signal.h(88,57): message :    88 | extern __sighandler_t signal (int __sig, __sighandler_t __handler)
+/usr/include/signal.h(88,57): message :       |                                          ~~~~~~~~~~~~~~~^~~~~~~~~

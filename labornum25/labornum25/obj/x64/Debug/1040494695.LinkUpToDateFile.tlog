@@ -1,0 +1,1 @@
+g++ -o "/home/kk/projects/labornum25/bin/x64/Debug/labornum25.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/kk/projects/labornum25/obj/x64/Debug/main.o
