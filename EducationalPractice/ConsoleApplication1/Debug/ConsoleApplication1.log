@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\brune\Desktop\Дз\2 курс 3 семестр\Системное программирование\практика\ConsoleApplication1\main.cpp(32,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\brune\Desktop\Дз\2 курс 3 семестр\Системное программирование\практика\ConsoleApplication1\main.cpp(38,23): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication1.vcxproj -> C:\Users\brune\Desktop\Дз\2 курс 3 семестр\Системное программирование\практика\ConsoleApplication1\Debug\ConsoleApplication1.exe
